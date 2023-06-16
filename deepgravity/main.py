@@ -56,7 +56,7 @@ parser.add_argument('--flow-flows-column', default='flow', help='Column name of 
 args = parser.parse_args()
 
 # global settings
-model_type = 'DG'
+model_type = 'NG'
 data_name = args.dataset
 
 # random seeds
